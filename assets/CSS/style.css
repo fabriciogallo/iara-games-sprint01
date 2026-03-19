@@ -57,7 +57,7 @@ ol {
 .header-page {
   height: 110px;
   width: 100%;
-  background-color: var(--color-dark);
+  /* background-color: var(--color-dark); */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -115,7 +115,7 @@ h1 {
 /* Area card */
 
 body {
-  background: linear-gradient(
+  /* background: linear-gradient(
       135deg,
       rgba(226, 226, 226, 1) 0%,
       rgba(219, 219, 219, 1) 50%,
@@ -124,7 +124,19 @@ body {
       rgba(254, 254, 254, 1) 100%
     )
     center/cover no-repeat;
+  min-height: 100vh; */
+
+  background: linear-gradient(
+      135deg,
+      rgb(37, 32, 32) 0%,
+      rgb(41, 41, 41) 50%,
+      rgb(34, 34, 34) 50%,
+      rgb(14, 14, 14) 50%,
+      rgb(22, 22, 22) 100%
+    )
+    center/cover no-repeat;
   min-height: 100vh;
+
 }
 .card {
   width: 360px;
@@ -203,7 +215,6 @@ body {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
   line-height: 1.5;
   max-height: calc(1.5 * 3);
 }
@@ -227,6 +238,7 @@ body {
   margin-bottom: 12px;
 }
 .price {
+  color: white;
   display: flex;
   flex-direction: column;
 }
@@ -298,18 +310,9 @@ body {
 .hero__bg {
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(
-      ellipse 60% 80% at 30% 50%,
-      rgba(245, 196, 0, 0.06) 0%,
-      transparent 70%
-    ),
-    radial-gradient(
-      ellipse 50% 70% at 75% 50%,
-      rgba(100, 0, 200, 0.07) 0%,
-      transparent 70%
-    ),
-    linear-gradient(160deg, #0d0d0d 0%, #181010 100%);
+  background-image: asset(url("../images/hellclock_thumbnail.png"));
+  background-size: cover;
+  background-position: center;
 }
 .hero__bg::after {
   content: "";
@@ -652,7 +655,7 @@ body {
 
 .explore__inner {
   display: grid;
-  grid-template-columns: 340px 1fr;
+  grid-template-columns: 580px 1fr;
   gap: 60px;
   align-items: start;
 }
@@ -714,7 +717,7 @@ body {
 }
 
 .explore__featured-img {
-  height: 220px;
+  height: 100%;
 }
 
 .explore__featured-name {
@@ -765,3 +768,36 @@ body {
 }
 
 .explore__ver-mais { text-align: right; }
+
+
+#svg-map path {
+  fill: #fab615
+}
+
+#svg-map text {
+  fill: #fff;
+  font: 12px Arial-BoldMT, sans-serif;
+  cursor: pointer
+}
+
+#svg-map a {
+  text-decoration: none
+}
+
+#svg-map a:hover {
+  cursor: pointer;
+  text-decoration: none
+}
+
+#svg-map a:hover path {
+  fill: #003399 !important
+}
+
+#svg-map .circle {
+  fill: #146636
+}
+
+#svg-map a:hover .circle {
+  fill: #003399 !important;
+  cursor: pointer
+}
