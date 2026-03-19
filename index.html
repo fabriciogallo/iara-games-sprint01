@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iara Games</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
 
     <link rel="stylesheet" href="assets/CSS/style.css" />
   </head>
@@ -52,15 +62,16 @@
         <div class="hero__card">
           <div class="hero__card-badge">Lançamento</div>
           <img
-            src="https://placehold.co/420x220/111/ccc?text=Asleep+Ato+1"
+            src="assets/images/banner-card-asleep.png"
             alt="Asleep Ato 1"
             class="hero__card-img"
           />
           <div class="hero__card-overlay">
-           
             <div class="hero__card-footer">
               <span class="price">R$ 100,00</span>
-              <button class="btn btn--yellow">Comprar jogo &rarr;</button>
+              <button class="btn btn--yellow">
+                Comprar jogo <i class="bi bi-arrow-right"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -72,154 +83,159 @@
       <img src="assets/images/frame-brasil.png" alt="" />
     </div>
 
-     <!-- ===== CARDS ===== -->
+    <!-- ===== CARDS ===== -->
 
-    <div class="container" style="display: flex">
-      <!-- Area Card 1 -->
-      <div class="card card1">
-        <div class="tilt">
-          <div class="img">
-            <img
-              src="assets/images/hellclock_thumbnail.png"
-              alt="Card game do jogo hellclock"
-            />
-          </div>
-        </div>
-        <div class="info">
-          <h2 class="title">Hell Clock</h2>
-          <p class="desc">
-            Crie poderosas builds com muito loot nessa combinação incrível de
-            Roguelike e ARPG. Atravesse perigosas masmorras e utilize poderes
-            sobrehumanos numa versão de fantasia sombria da Guerra de Canudos no
-            Brasil.
-          </p>
-          <div class="feats"></div>
-          <div class="bottom">
-            <div class="price">
-              <span class="old">R$ 59,99</span>
-              <span class="new">R$ 41,99</span>
-            </div>
-            <button class="btn">
-              <span>Jogar <i class="bi bi-arrow-right"></i></span>
-            </button>
-          </div>
-        </div>
+    <div class="container container--ofertas">
+      <div class="container-title-cards-ofertas">
+        <h2 class="title-cards-ofertas">Ofertas</h2>
       </div>
-      <!-- Area Card 2 -->
-      <div class="card card2">
-        <div class="tilt">
-          <div class="img">
-            <img
-              src="assets/images/9kings_thumbnail.png"
-              alt="Card game do jogo 9 Kings"
-            />
-          </div>
-        </div>
-        <div class="info">
-          <h2 class="title">9 Kings</h2>
-          <p class="desc">
-            Um construtor de reino roguelike acelerado. Expanda seu império e
-            lute em batalhas gigantescas contra poderosos reis rivais. Explore
-            todas as vantagens com milhares de combinações impressionantes para
-            se tornar o Rei dos Reis.
-          </p>
-          <div class="feats"></div>
-          <div class="bottom">
-            <div class="price">
-              <span class="old">R$ 39,99</span>
-              <span class="new">R$ 19,90</span>
+      <div class="cards-row">
+        <!-- Area Card 1 -->
+        <div class="card card1">
+          <div class="tilt">
+            <div class="img">
+              <img
+                src="assets/images/hellclock_thumbnail.png"
+                alt="Card game do jogo hellclock"
+              />
             </div>
-            <button class="btn">
-              <span>Jogar <i class="bi bi-arrow-right"></i></span>
-            </button>
           </div>
-        </div>
-      </div>
-      <!-- Area Card 3 -->
-      <div class="card card3">
-        <div class="tilt">
-          <div class="img">
-            <img
-              src="assets/images/skydust_thumbnail.png"
-              alt="Card game do jogo Sky Dust"
-            />
-          </div>
-        </div>
-        <div class="info">
-          <h2 class="title">Sky Dust</h2>
-          <p class="desc">
-            Sky Dust is a cyberpunk action-adventure Metroidvania set in a São
-            Paulo poisoned by lunar fallout and digital decay. Play as a hired
-            blade taking dangerous contracts to survive. Master fast,
-            skill-driven combat, and explore a fractured megacity across neon
-            streets and a corrupted Cyberverse!
-          </p>
-          <div class="feats"></div>
-          <div class="bottom">
-            <div class="price">
-              <span class="old">R$ 90,00</span>
-              <span class="new">R$ 65,00</span>
+          <div class="info">
+            <h2 class="title">Hell Clock</h2>
+            <p class="desc">
+              Crie poderosas builds com muito loot nessa combinação incrível de
+              Roguelike e ARPG. Atravesse perigosas masmorras e utilize poderes
+              sobrehumanos numa versão de fantasia sombria da Guerra de Canudos
+              no Brasil.
+            </p>
+            <div class="feats"></div>
+            <div class="bottom">
+              <div class="price">
+                <span class="old">R$ 59,99</span>
+                <span class="new">R$ 41,99</span>
+              </div>
+              <button class="btn">
+                <span>Jogar <i class="bi bi-arrow-right"></i></span>
+              </button>
             </div>
-            <button class="btn">
-              <span>Jogar <i class="bi bi-arrow-right"></i></span>
-            </button>
           </div>
         </div>
-      </div>
-      <!-- Area Card 4 -->
-      <div class="card card4">
-        <div class="tilt">
-          <div class="img">
-            <img
-              src="assets/images/aviaozinho_thumbnail.png"
-              alt="PCard game do jogo Aviãozinho do Tráfico"
-            />
-          </div>
-        </div>
-        <div class="info">
-          <h2 class="title">Aviãozinho do Tráfico</h2>
-          <p class="desc">
-            Um jogo boomer shooter Brasileiro feito com o motor id tech 2!
-            atire, salte, se aventure por todo o estado do Rio de Janeiro, no
-            inferno e até no céu! salve o Brasil!
-          </p>
-          <div class="feats"></div>
-          <div class="bottom">
-            <div class="price">
-              <span class="old">R$ 19,00</span>
-              <span class="new">R$ 10,50</span>
+        <!-- Area Card 2 -->
+        <div class="card card2">
+          <div class="tilt">
+            <div class="img">
+              <img
+                src="assets/images/9kings_thumbnail.png"
+                alt="Card game do jogo 9 Kings"
+              />
             </div>
-            <button class="btn">
-              <span>Jogar <i class="bi bi-arrow-right"></i></span>
-            </button>
           </div>
-        </div>
-      </div>
-      <!-- Area Card 5 -->
-      <div class="card card5">
-        <div class="tilt">
-          <div class="img">
-            <img
-              src="assets/images/horizonchase_thumbnail.png"
-              alt="Card game do jogo Horizon Chase Turbo"
-            />
-          </div>
-        </div>
-        <div class="info">
-          <h2 class="title">Horizon Chase Turbo</h2>
-          <p class="desc">
-            Emocionante jogo de corrida arcade, inspirado pela geração dos
-            clássicos jogos de corrida dos anos 90.
-          </p>
-          <div class="feats"></div>
-          <div class="bottom">
-            <div class="price">
-              <span class="old">R$ 49,00</span>
-              <span class="new">R$ 32,15</span>
+          <div class="info">
+            <h2 class="title">9 Kings</h2>
+            <p class="desc">
+              Um construtor de reino roguelike acelerado. Expanda seu império e
+              lute em batalhas gigantescas contra poderosos reis rivais. Explore
+              todas as vantagens com milhares de combinações impressionantes
+              para se tornar o Rei dos Reis.
+            </p>
+            <div class="feats"></div>
+            <div class="bottom">
+              <div class="price">
+                <span class="old">R$ 39,99</span>
+                <span class="new">R$ 19,90</span>
+              </div>
+              <button class="btn">
+                <span>Jogar <i class="bi bi-arrow-right"></i></span>
+              </button>
             </div>
-            <button class="btn">
-              <span>Jogar <i class="bi bi-arrow-right"></i></span>
-            </button>
+          </div>
+        </div>
+        <!-- Area Card 3 -->
+        <div class="card card3">
+          <div class="tilt">
+            <div class="img">
+              <img
+                src="assets/images/skydust_thumbnail.png"
+                alt="Card game do jogo Sky Dust"
+              />
+            </div>
+          </div>
+          <div class="info">
+            <h2 class="title">Sky Dust</h2>
+            <p class="desc">
+              Sky Dust is a cyberpunk action-adventure Metroidvania set in a São
+              Paulo poisoned by lunar fallout and digital decay. Play as a hired
+              blade taking dangerous contracts to survive. Master fast,
+              skill-driven combat, and explore a fractured megacity across neon
+              streets and a corrupted Cyberverse!
+            </p>
+            <div class="feats"></div>
+            <div class="bottom">
+              <div class="price">
+                <span class="old">R$ 90,00</span>
+                <span class="new">R$ 65,00</span>
+              </div>
+              <button class="btn">
+                <span>Jogar <i class="bi bi-arrow-right"></i></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Area Card 4 -->
+        <div class="card card4">
+          <div class="tilt">
+            <div class="img">
+              <img
+                src="assets/images/aviaozinho_thumbnail.png"
+                alt="PCard game do jogo Aviãozinho do Tráfico"
+              />
+            </div>
+          </div>
+          <div class="info">
+            <h2 class="title">Aviãozinho do Tráfico</h2>
+            <p class="desc">
+              Um jogo boomer shooter Brasileiro feito com o motor id tech 2!
+              atire, salte, se aventure por todo o estado do Rio de Janeiro, no
+              inferno e até no céu! salve o Brasil!
+            </p>
+            <div class="feats"></div>
+            <div class="bottom">
+              <div class="price">
+                <span class="old">R$ 19,00</span>
+                <span class="new">R$ 10,50</span>
+              </div>
+              <button class="btn">
+                <span>Jogar <i class="bi bi-arrow-right"></i></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Area Card 5 -->
+        <div class="card card5">
+          <div class="tilt">
+            <div class="img">
+              <img
+                src="assets/images/horizonchase_thumbnail.png"
+                alt="Card game do jogo Horizon Chase Turbo"
+              />
+            </div>
+          </div>
+          <div class="info">
+            <h2 class="title">Horizon Chase Turbo</h2>
+            <p class="desc">
+              Emocionante jogo de corrida arcade, inspirado pela geração dos
+              clássicos jogos de corrida dos anos 90.
+            </p>
+            <div class="feats"></div>
+            <div class="bottom">
+              <div class="price">
+                <span class="old">R$ 49,00</span>
+                <span class="new">R$ 32,15</span>
+              </div>
+              <button class="btn">
+                <span>Jogar <i class="bi bi-arrow-right"></i></span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
