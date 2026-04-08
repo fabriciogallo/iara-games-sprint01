@@ -23,7 +23,7 @@
       type="image/x-icon"
     />
     <!-- Link Css -->
-    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/index.css" />
   </head>
 
   <body>
@@ -38,28 +38,28 @@
       </div>
       <nav>
         <ul class="header-menu">
-          <li><a href="#" class="item-menu">Loja</a></li>
+          <li><a href="pages/jogos.html" class="item-menu">Loja</a></li>
           <li><a href="#" class="item-menu">Comunidade</a></li>
-          <li><a href="#" class="item-menu">Sobre</a></li>
+          <li><a href="#footer" class="item-menu">Sobre</a></li>
           <li><a href="#" class="item-menu">Suporte</a></li>
         </ul>
       </nav>
       <div class="header-button">
-        <a href="#" class="navbar-button">Entrar</a>
+        <a href="pages/jogos.html" class="navbar-button">Entrar</a>
       </div>
     </header>
 
-    <!-- ===== HERO ===== -->
+    <!-- Area do hero -->
     <section class="hero">
-      <div class="hero__bg"></div>
-      <div class="hero__content">
-        <div class="hero__text">
-          <h1 class="hero__title">Descubra seus<br />próximos jogos</h1>
-          <p class="hero__sub">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Descubra seus<br />próximos jogos</h1>
+          <p class="hero-sub">
             A plataforma que te ajuda a encontrar os<br />jogos desenvolvidos
             por brasileiros
           </p>
-          <div class="hero__dots">
+          <div class="hero-dots">
             <span class="dot dot--active"></span>
             <span class="dot"></span>
             <span class="dot"></span>
@@ -68,15 +68,15 @@
             <span class="dot"></span>
           </div>
         </div>
-        <div class="hero__card">
-          <div class="hero__card-badge">Lançamento</div>
+        <div class="hero-card">
+          <div class="hero-card-badge">Lançamento</div>
           <img
             src="assets/images/banner-card-asleep.png"
             alt="Banner principal com a imagem do game Asleep Ato 1"
-            class="hero__card-img"
+            class="hero-card-img"
           />
-          <div class="hero__card-overlay">
-            <div class="hero__card-footer">
+          <div class="hero-card-overlay">
+            <div class="hero-card-footer">
               <span class="price">R$ 100,00</span>
               <button class="navbar-button">
                 Comprar jogo <i class="bi bi-arrow-right"></i>
@@ -86,11 +86,13 @@
         </div>
       </div>
     </section>
+    <!-- Fim Area do Hero -->
 
-    <!-- ===== Popular no Brasil ===== -->
-    <section class="Popular">
+    <!-- Area do Popular no Brasil -->
+    <section class="popular" id="popular">
       <div class="pop">
         <h2>Popular no Brasil</h2>
+        <a href="pages/jogos.html" class="popular-see-all">Ver todos</a>
       </div>
       <div class="pop-conteudo">
         <div class="pop-container">
@@ -108,7 +110,7 @@
         </div>
 
         <div class="synopsis">
-          <div class="popular__name-row">
+          <div class="popular-name-row">
             <h1>Hell Clock</h1>
             <div class="popular-tags">
               <span id="tag" class="tag-rpg">RPG</span>
@@ -130,15 +132,15 @@
         </div>
       </div>
     </section>
-    <!-- Fim Popular-->
+    <!-- Fim Area Popular no Brasil -->
 
-    <!-- ===== EXPLORE PELO BRASIL ===== -->
-    <section class="explore section-gap">
+    <!-- Area Explore jogos pelo Brasil -->
+    <section class="explore section-gap" id="explore">
       <div class="container">
-        <div class="explore__inner">
-          <div class="explore__map-side">
-            <h2 class="explore__title">Explore jogos pelo Brasil</h2>
-            <div class="explore__map">
+        <div class="explore-inner">
+          <div class="explore-map-side">
+            <h2 class="explore-title">Explore jogos pelo Brasil</h2>
+            <div class="explore-map">
               <!-- Simplified Brazil SVG silhouette -->
               <svg
                 version="1.1"
@@ -886,235 +888,247 @@
               </svg>
             </div>
           </div>
-          <div class="explore__games-side">
-            <div class="explore__featured">
-              <div class="explore__featured-badge">em SP</div>
+          <div class="explore-games-side">
+            <div class="explore-featured">
+              <div class="explore-featured-badge">#1 em SP</div>
               <img
                 src="assets/images/horizonchase_thumbnail.png"
                 alt="Banner explore jogos com Horizon Chase"
-                class="explore__featured-img"
+                class="explore-featured-img"
               />
             </div>
-            <div class="explore__thumbs">
-              <img src="assets/images/9kings_thumbnail.png" alt="Banner explore jogos com 9 Kings" />
+            <div class="explore-thumbs">
+              <img
+                src="assets/images/9kings_thumbnail.png"
+                alt="Banner explore jogos com 9 Kings"
+              />
               <img
                 src="assets/images/hellclock_thumbnail.png"
                 alt="Banner explore jogos com HellClock"
               />
-              <img src="assets/images/skydust_thumbnail.png" alt="Banner explore jogos com Sky Dust" />
+              <img
+                src="assets/images/skydust_thumbnail.png"
+                alt="Banner explore jogos com Sky Dust"
+              />
             </div>
-            <div class="explore__ver-mais">
-              <a href="#" class="link-see-all">Ver mais</a>
+            <div class="explore-ver-mais">
+              <a href="pages/jogos.html" class="link-see-all">Ver mais</a>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Fim Area Explore jogos pelo Brasil -->
 
-    <!-- ===== CARDS ===== -->
-
-    <div class="container container--ofertas">
-      <div class="container-title-cards-ofertas">
-        <h2 class="title-cards-ofertas">Ofertas</h2>
+    <!-- Area de Ofertas -->
+    <section class="ofertas" id="ofertas">
+      <div class="container container--ofertas">
+        <div class="ofertas-header">
+          <h2 class="ofertas-title">Ofertas</h2>
+          <a href="pages/jogos.html" class="ofertas-see-all">Ver todos</a>
+        </div>
+        <div class="ofertas-cards-row">
+          <!-- Area Card 1 -->
+          <article class="ofertas-card ofertas-card--1">
+            <div class="ofertas-tilt">
+              <div class="ofertas-img-wrap">
+                <img
+                  src="assets/images/hellclock_thumbnail.png"
+                  alt="Area de ofertas com card game do jogo Hellclock"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="ofertas-info">
+              <h3 class="ofertas-card-title">Hell Clock</h3>
+              <p class="ofertas-desc">
+                Crie poderosas builds com muito loot nessa combinação incrível
+                de Roguelike e ARPG. Atravesse perigosas masmorras e utilize
+                poderes sobrehumanos numa versão de fantasia sombria da Guerra
+                de Canudos no Brasil.
+              </p>
+              <div class="ofertas-feats"></div>
+              <div class="ofertas-bottom">
+                <div class="ofertas-price">
+                  <span class="ofertas-old-price">R$ 59,99</span>
+                  <span class="ofertas-new-price">R$ 41,99</span>
+                </div>
+                <button class="ofertas-btn btn-card">
+                  <span>Jogar <i class="bi bi-arrow-right"></i></span>
+                </button>
+              </div>
+            </div>
+          </article>
+          <!-- Area Card 2 -->
+          <article class="ofertas-card ofertas-card--2">
+            <div class="ofertas-tilt">
+              <div class="ofertas-img-wrap">
+                <img
+                  src="assets/images/9kings_thumbnail.png"
+                  alt="Area de ofertas com card game do jogo 9 Kings"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="ofertas-info">
+              <h3 class="ofertas-card-title">9 Kings</h3>
+              <p class="ofertas-desc">
+                Um construtor de reino roguelike acelerado. Expanda seu império
+                e lute em batalhas gigantescas contra poderosos reis rivais.
+                Explore todas as vantagens com milhares de combinações
+                impressionantes para se tornar o Rei dos Reis.
+              </p>
+              <div class="ofertas-feats"></div>
+              <div class="ofertas-bottom">
+                <div class="ofertas-price">
+                  <span class="ofertas-old-price">R$ 39,99</span>
+                  <span class="ofertas-new-price">R$ 19,90</span>
+                </div>
+                <button class="ofertas-btn btn-card">
+                  <span>Jogar <i class="bi bi-arrow-right"></i></span>
+                </button>
+              </div>
+            </div>
+          </article>
+          <!-- Area Card 3 -->
+          <article class="ofertas-card ofertas-card--3">
+            <div class="ofertas-tilt">
+              <div class="ofertas-img-wrap">
+                <img
+                  src="assets/images/skydust_thumbnail.png"
+                  alt="Area de ofertas com card game do jogo Sky Dust"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="ofertas-info">
+              <h3 class="ofertas-card-title">Sky Dust</h3>
+              <p class="ofertas-desc">
+                Sky Dust é um Metroidvania de ação e aventura cyberpunk
+                ambientado em uma São Paulo contaminada por radiação lunar e
+                decadência digital. Jogue como um assassino de aluguel que
+                aceita contratos perigosos para sobreviver. Domine o combate
+                rápido e preciso e explore uma megacidade fragmentada através de
+                ruas iluminadas por neon e um Cyberverso corrompido!
+              </p>
+              <div class="ofertas-feats"></div>
+              <div class="ofertas-bottom">
+                <div class="ofertas-price">
+                  <span class="ofertas-old-price">R$ 90,00</span>
+                  <span class="ofertas-new-price">R$ 65,00</span>
+                </div>
+                <button class="ofertas-btn btn-card">
+                  <span>Jogar <i class="bi bi-arrow-right"></i></span>
+                </button>
+              </div>
+            </div>
+          </article>
+          <!-- Area Card 4 -->
+          <article class="ofertas-card ofertas-card--4">
+            <div class="ofertas-tilt">
+              <div class="ofertas-img-wrap">
+                <img
+                  src="assets/images/aviaozinho_thumbnail.png"
+                  alt="Area de ofertas com card game do jogo Aviãozinho do Tráfico"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="ofertas-info">
+              <h3 class="ofertas-card-title">Aviãozinho do Tráfico</h3>
+              <p class="ofertas-desc">
+                Um jogo boomer shooter Brasileiro feito com o motor id tech 2!
+                atire, salte, se aventure por todo o estado do Rio de Janeiro,
+                no inferno e até no céu! salve o Brasil!
+              </p>
+              <div class="ofertas-feats"></div>
+              <div class="ofertas-bottom">
+                <div class="ofertas-price">
+                  <span class="ofertas-old-price">R$ 19,00</span>
+                  <span class="ofertas-new-price">R$ 10,50</span>
+                </div>
+                <button class="ofertas-btn btn-card">
+                  <span>Jogar <i class="bi bi-arrow-right"></i></span>
+                </button>
+              </div>
+            </div>
+          </article>
+          <!-- Area Card 5 -->
+          <article class="ofertas-card ofertas-card--1">
+            <div class="ofertas-tilt">
+              <div class="ofertas-img-wrap">
+                <img
+                  src="assets/images/horizonchase_thumbnail.png"
+                  alt="Area de ofertas com card game do jogo Horizon Chase Turbo"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="ofertas-info">
+              <h3 class="ofertas-card-title">Horizon Chase Turbo</h3>
+              <p class="ofertas-desc">
+                Emocionante jogo de corrida arcade, inspirado pela geração dos
+                clássicos jogos de corrida dos anos 90.
+              </p>
+              <div class="ofertas-feats"></div>
+              <div class="ofertas-bottom">
+                <div class="ofertas-price">
+                  <span class="ofertas-old-price">R$ 49,00</span>
+                  <span class="ofertas-new-price">R$ 32,15</span>
+                </div>
+                <button class="ofertas-btn btn-card">
+                  <span>Jogar <i class="bi bi-arrow-right"></i></span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
-      <div class="cards-row">
-        <!-- Area Card 1 -->
-        <div class="card card1">
-          <div class="tilt">
-            <div class="img">
-              <img
-                src="assets/images/hellclock_thumbnail.png"
-                alt="Area de ofertas com card game do jogo Hellclock"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="info">
-            <h2 class="title">Hell Clock</h2>
-            <p class="desc">
-              Crie poderosas builds com muito loot nessa combinação incrível de
-              Roguelike e ARPG. Atravesse perigosas masmorras e utilize poderes
-              sobrehumanos numa versão de fantasia sombria da Guerra de Canudos
-              no Brasil.
-            </p>
-            <div class="feats"></div>
-            <div class="bottom">
-              <div class="price">
-                <span class="old-price">R$ 59,99</span>
-                <span class="new-price">R$ 41,99</span>
-              </div>
-              <button class="btn btn-card">
-                <span>Jogar <i class="bi bi-arrow-right"></i></span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Area Card 2 -->
-        <div class="card card2">
-          <div class="tilt">
-            <div class="img">
-              <img
-                src="assets/images/9kings_thumbnail.png"
-                alt="Area de ofertas com card game do jogo 9 Kings"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="info">
-            <h2 class="title">9 Kings</h2>
-            <p class="desc">
-              Um construtor de reino roguelike acelerado. Expanda seu império e
-              lute em batalhas gigantescas contra poderosos reis rivais. Explore
-              todas as vantagens com milhares de combinações impressionantes
-              para se tornar o Rei dos Reis.
-            </p>
-            <div class="feats"></div>
-            <div class="bottom">
-              <div class="price">
-                <span class="old-price-price">R$ 39,99</span>
-                <span class="new-price">R$ 19,90</span>
-              </div>
-              <button class="btn btn-card">
-                <span>Jogar <i class="bi bi-arrow-right"></i></span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Area Card 3 -->
-        <div class="card card3">
-          <div class="tilt">
-            <div class="img">
-              <img
-                src="assets/images/skydust_thumbnail.png"
-                alt="Area de ofertas com card game do jogo Sky Dust"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="info">
-            <h2 class="title">Sky Dust</h2>
-            <p class="desc">
-              Sky Dust é um Metroidvania de ação e aventura cyberpunk ambientado
-              em uma São Paulo contaminada por radiação lunar e decadência
-              digital. Jogue como um assassino de aluguel que aceita contratos
-              perigosos para sobreviver. Domine o combate rápido e preciso e
-              explore uma megacidade fragmentada através de ruas iluminadas por
-              neon e um Cyberverso corrompido!
-            </p>
-            <div class="feats"></div>
-            <div class="bottom">
-              <div class="price">
-                <span class="old-price">R$ 90,00</span>
-                <span class="new-price">R$ 65,00</span>
-              </div>
-              <button class="btn btn-card">
-                <span>Jogar <i class="bi bi-arrow-right"></i></span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Area Card 4 -->
-        <div class="card card4">
-          <div class="tilt">
-            <div class="img">
-              <img
-                src="assets/images/aviaozinho_thumbnail.png"
-                alt="Area de ofertas com card game do jogo Aviãozinho do Tráfico"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="info">
-            <h2 class="title">Aviãozinho do Tráfico</h2>
-            <p class="desc">
-              Um jogo boomer shooter Brasileiro feito com o motor id tech 2!
-              atire, salte, se aventure por todo o estado do Rio de Janeiro, no
-              inferno e até no céu! salve o Brasil!
-            </p>
-            <div class="feats"></div>
-            <div class="bottom">
-              <div class="price">
-                <span class="old-price">R$ 19,00</span>
-                <span class="new-price">R$ 10,50</span>
-              </div>
-              <button class="btn btn-card">
-                <span>Jogar <i class="bi bi-arrow-right"></i></span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Area Card 5 -->
-        <div class="card card5">
-          <div class="tilt">
-            <div class="img">
-              <img
-                src="assets/images/horizonchase_thumbnail.png"
-                alt="Area de ofertas com card game do jogo Horizon Chase Turbo"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="info">
-            <h2 class="title">Horizon Chase Turbo</h2>
-            <p class="desc">
-              Emocionante jogo de corrida arcade, inspirado pela geração dos
-              clássicos jogos de corrida dos anos 90.
-            </p>
-            <div class="feats"></div>
-            <div class="bottom">
-              <div class="price">
-                <span class="old-price">R$ 49,00</span>
-                <span class="new-price">R$ 32,15</span>
-              </div>
-              <button class="btn btn-card">
-                <span>Jogar <i class="bi bi-arrow-right"></i></span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
+    <!-- Fim Area de Ofertas -->
 
-    <!-- ===== CTA EMAIL ===== -->
+    <!--  Area Formulario Divulgar Jogos  -->
+
     <section class="cta-email">
-      <div class="cta-email__bg"></div>
-      <div class="cta-email__content">
+      <div class="cta-email-bg"></div>
+      <div class="cta-email-content">
         <h2>
           Deseja divulgar seus jogos na Iara Games?<br />Envie-nos um e-mail
         </h2>
         <form
-          class="cta-email__form"
+          class="cta-email-form"
           onsubmit="return false;"
           style="border: 0 !important"
         >
           <input
             type="email"
             placeholder="Insira seu e-mail"
-            class="cta-email__input"
+            class="cta-email-input"
           />
           <button type="submit" class="navbar-button">Enviar</button>
         </form>
       </div>
     </section>
+    <!-- Fim Area Formulario Divulgar Jogos  -->
 
-    <!-- ===== FOOTER ===== -->
-    <footer class="footer">
-      <div class="container footer__inner">
-        <div class="footer__brand">
-          <div class="footer__logo">
+    <!-- Area do Footer -->
+    <footer class="footer" id="footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <div class="footer-logo">
             <img
               src="assets/images/icone-iara-games.svg"
               alt="Logo da Iara Games"
             />
             <h2 class="titulo-logo">Iara Games</h2>
           </div>
-          <p class="footer__tagline">
+          <p class="footer-tagline">
             Plataforma de venda de jogos desenvolvidos por brasileiros ou jogos
             ambientados no Brasil.
           </p>
-          <div class="footer__lang">
+          <div class="footer-lang">
             <label>Idioma e País</label>
-            <div class="footer__selects">
+            <div class="footer-selects">
               <select>
                 <option>Português</option>
               </select>
@@ -1125,30 +1139,52 @@
           </div>
         </div>
 
-        <nav class="footer__nav">
+        <nav class="footer-nav">
           <a href="#">Sobre</a>
-          <a href="#">Loja</a>
+          <a href="pages/jogos.html">Loja</a>
           <a href="#">Comunidade</a>
           <a href="#">Blog</a>
           <a href="#">Suporte</a>
         </nav>
 
-        <div class="footer__social">
-          <a href="#">Twitch</a>
-          <a href="#">Instagram</a>
-          <a href="#">Twitter</a>
-          <a href="#">Youtube</a>
+        <div class="footer-social">
+          <a
+            href="https://www.twitch.tv"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Twitch</a
+          >
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+          <a href="https://x.com" target="_blank" rel="noopener noreferrer"
+            >Twitter</a
+          >
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Youtube</a
+          >
         </div>
 
-        <div class="footer__legal-links">
-          <a href="#">Contato</a>
-          <a href="#" class="link-yellow">Políticas de Privacidade</a>
-          <a href="#" class="link-yellow">Termos e Condições</a>
+        <div class="footer-legal-links">
+          <a href="mailto:contato@iaragames.com.br">Contato</a>
+          <a href="pages/politica-privacidade.html" class="link-yellow"
+            >Políticas de Privacidade</a
+          >
+          <a href="pages/termos-condicoes.html" class="link-yellow"
+            >Termos e Condições</a
+          >
         </div>
       </div>
-      <div class="footer__bottom">
+      <div class="footer-bottom">
         <span>2026 – Desenvolvido por grupo 10</span>
       </div>
     </footer>
+    <!-- Fim Area do Footer -->
   </body>
 </html>
