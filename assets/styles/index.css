@@ -678,7 +678,9 @@ body {
   transform: scale(1.05);
 }
 .ofertas-info {
-  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-inline: 20px;
 }
 .ofertas-card-title {
   font-size: 18px;
@@ -696,6 +698,7 @@ body {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   max-height: calc(1.5em * 2);
   margin-bottom: 15px;
 }
