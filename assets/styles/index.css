@@ -824,12 +824,16 @@ input {
   width: 774px;
   height: 40px;
 
-  color: #f5ffe6;
   font-family: "Outfit";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+/* Exemplo Básico */
+.form-field input::placeholder {
+  color: #f5ffe6;
+  opacity: 1; /* Necessário para Firefox */
 }
 
 .btn-form {
@@ -843,6 +847,49 @@ input {
 
   background-color: #ffcb20;
   box-shadow: 0 0 34px 0 rgba(255, 203, 32, 0.3);
+}
+
+select option {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+select {
+  cursor: pointer;
+}
+
+#estado {
+  border: none;
+  border-bottom: 1px solid #f5ffe6;
+  background: rgba(255, 255, 255, 0)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23f5ffe6' d='M1 1l5 5 5-5'/%3E%3C/svg%3E")
+    no-repeat;
+  background-position: right 8px center;
+
+  width: 774px;
+  height: 40px;
+  padding-right: 32px;
+
+  color: #f5ffe6;
+  font-family: "Outfit";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+#estado:focus {
+  outline: none;
+  border-bottom-color: var(--color-yellow);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23ffcb20' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
+}
+
+#estado option {
+  color: #111;
+  background: #fff;
 }
 
 /* Fim Area Formulario Divulgar Jogos */
