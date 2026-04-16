@@ -132,21 +132,42 @@ body {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url(../images/banner-asleep.jpg);
-  background-size: cover;
-  background-position: 50% 20%;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(4, 8, 20, 0.9) 0%,
+      rgba(26, 66, 218, 0.72) 18%,
+      rgba(20, 54, 191, 0.5) 44%,
+      rgba(4, 8, 24, 0.78) 76%,
+      #000 100%
+    ),
+    radial-gradient(
+      110% 70% at 30% 18%,
+      rgba(74, 129, 255, 0.5) 0%,
+      rgba(43, 91, 255, 0.22) 40%,
+      rgba(8, 17, 48, 0) 72%
+    ),
+    url(../images/bg-agua.png), #1f46d8;
+  background-size: cover, cover, cover, auto;
+  background-position:
+    center,
+    22% 18%,
+    50% 20%,
+    center;
+  background-repeat: no-repeat;
 }
-
-/* Modo vinheta no hero */
 
 .hero-bg::before {
   content: "";
   position: absolute;
   inset: 0;
   background: radial-gradient(
-    ellipse at center,
-    rgba(0, 0, 0, 0) 22%,
-    rgba(0, 0, 0, 0.82) 100%
+    ellipse at 58% 42%,
+    rgba(0, 0, 0, 0) 24%,
+    rgba(0, 0, 0, 0.45) 76%,
+    rgba(0, 0, 0, 0.7) 100%
   );
 }
 
@@ -154,22 +175,13 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-image:
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 39px,
-      rgba(255, 255, 255, 0.025) 40px
-    ),
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 39px,
-      rgba(255, 255, 255, 0.025) 40px
-    );
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.03) 0%,
+    rgba(0, 0, 0, 0.16) 56%,
+    rgba(0, 0, 0, 0.82) 100%
+  );
 }
-
-/* Fim Modo vinheta no hero */
 
 .hero-content {
   position: relative;
@@ -535,7 +547,7 @@ body {
 }
 
 #svg-map path {
-  fill: #fab615;
+  fill: #27c840;
 }
 
 #svg-map text {
@@ -812,7 +824,7 @@ fieldset {
 .titulo-divulgar-jogos {
   color: #fff;
   text-align: center;
-  font-family: "Montserrat";
+  font-family: var(--font-text);
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -822,7 +834,7 @@ fieldset {
 .form-field {
   padding: 10px;
 }
-input {
+.form-field input {
   border: none;
   border-bottom: 1px solid #f5ffe6;
   background: rgba(255, 255, 255, 0);
