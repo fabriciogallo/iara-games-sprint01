@@ -1,72 +1,80 @@
 ![Logo](assets/images/logo-iara-games.png)
 
-# Iara Games
+# Iara Games - Fase 2
 
-A Iara Games é uma plataforma dedicada à divulgação de jogos desenvolvidos por Game Designers brasileiros. Nosso objetivo é ampliar a visibilidade de projetos nacionais e facilitar a conexão entre desenvolvedores e público.
+#  A EVOLUÇÃO
 
-Atuamos como um espaço de curadoria e exposição, reunindo produções independentes e autorais feitas no Brasil. A proposta é fortalecer o ecossistema criativo nacional, oferecendo um canal estruturado para apresentar jogos, compartilhar portfólios e destacar novos talentos.
+Da sprint 1 para a sprint 2, o grupo evoluiu a plataforma Iara Games a partir de melhorias significativas. Como principal ponto de atenção, aprimoramos melhor os aspectos da nossa identidade visual, realizando ajustes na paleta de cores e incorporando uma texturização de água ao fundo. Aplicamos uma variação de tonalidade ao longo da navegação, onde, quanto mais profunda a página, mais escuro se torna o layout, assim como as águas de um rio.
 
-Inspirada no nome da Iara, a plataforma carrega a ideia de identidade brasileira, mas com foco prático: criar oportunidades e dar espaço para quem desenvolve jogos no país.
+Também acrescentamos um botão de pesquisa para facilitar a busca por novos jogos, além da criação de um formulário e da reorganização do layout dos cards, tornando a experiência mais completa e funcional.
 
-## Refêrencias
+![App Screenshot](assets/images/HOMEFASE2.jpg)
 
-#### Steam
 
-![App Screenshot](assets/images/steam.png)
+## PERSONA
 
-#### GOG
+Lucas Ferreira, 25 anos, é um designer gráfico de São Paulo apaixonado por jogos indie e cultura brasileira. Ele busca descobrir jogos nacionais de forma prática, valorizando recomendações, reviews e uma experiência de navegação simples.
 
-![App Screenshot](assets/images/gog.png)
+No entanto, enfrenta dificuldades em encontrar jogos brasileiros em grandes plataformas, devido à falta de curadoria e organização. Por isso, precisa de uma solução que centralize esses jogos, ofereça recomendações personalizadas e destaque os desenvolvedores, tornando a experiência mais clara e confiável.
 
-#### Epic
+![App Screenshot](assets/images/Persona1.jpg)
+## ESG
 
-![App Screenshot](assets/images/epic.png)
+A Iara Games é uma plataforma voltada à curadoria, divulgação e acesso a jogos desenvolvidos por criadores brasileiros.
 
-## Design
+Centralizamos esses conteúdos em um único local, a iniciativa contribui para o fortalecimento do ecossistema nacional de games e da economia criativa. 
 
-### Definição e justificativa
+Nesse contexto, é possível analisar a relação com os princípios de ESG (Environmental, Social and Governance).
 
-#### Cores do Brasil, utilizando amarelo como destaque:
+### ASPECTO AMBIENTAL
 
-A interface utiliza uma paleta inspirada nas cores do Brasil, reforçando a proposta da plataforma de valorizar jogos desenvolvidos no país. O amarelo aparece como cor de destaque para ações importantes e elementos de navegação, criando contraste com o fundo escuro e ajudando a direcionar a atenção do usuário. Além de fortalecer a identidade visual da plataforma, essa escolha conecta o produto à cultura brasileira de forma sutil e reconhecível.
+A Iara Games apresenta uma contribuição indireta, característica de plataformas digitais. Por não depender de mídia física para distribuição, reduz impactos relacionados à produção de materiais, logística e descarte.
 
-#### Mapa mostrando jogos desenvolvidos por estado:
+Além disso, a plataforma incentiva a presença de jogos com temáticas ambientais, promovendo a conscientização dos usuários sobre sustentabilidade e preservação de recursos naturais.
 
-Para reforçar a ideia de um ecossistema nacional de desenvolvimento de jogos, a plataforma apresenta um mapa do Brasil que destaca de onde vêm os jogos publicados. Esse recurso transforma a descoberta em algo mais contextual, permitindo que o usuário explore títulos a partir de suas regiões de origem. Mais do que um elemento visual, o mapa funciona como uma forma de evidenciar a diversidade da produção de games no país.
+### PILAR SOCIAL
 
-#### Logo que faz conexão entre jogos e a Iara:
+O aspecto mais importante para a Iara Games, a plataforma contribui para:
 
-A identidade visual parte de um símbolo que conecta dois universos: o dos jogos e o da Iara, figura presente no imaginário brasileiro. A forma da marca sugere movimento e fluidez, remetendo à ideia de descoberta e navegação entre diferentes jogos. Ao mesmo tempo, cria uma identidade própria para a plataforma, associando o nome Iara a um espaço dedicado a revelar e divulgar a produção de game designers brasileiros.
+- Valorização de desenvolvedores brasileiros, ampliando a visibilidade no mercado
+- Fomento à economia criativa nacional, especialmente para estúdios independentes
+- Democratização do acesso a jogos produzidos no Brasil
+- Fortalecimento da cultura local, ao evidenciar narrativas, estéticas e referências brasileiras
+- Dessa forma, promovemos inclusão econômica e cultural, alinhando-se diretamente aos objetivos sociais do ESG.
 
-## Paleta de Cores
+### PILAR DA GOVERNANÇA
 
-| Cor        | Hex                                                                     |
-| ---------- | ----------------------------------------------------------------------- |
-| Primária   | ![#FFCB20](https://dummyimage.com/50/FFCB200a192f/white?text=+) #FFCB20 |
-| Secundária | ![#2550FF](https://dummyimage.com/50/2550FF/white?text=+) #2550FF       |
-| Branco     | ![#FFFFFF](https://dummyimage.com/50/FFFFFF/white?text=+) #FFFFFF       |
-| Preto      | ![#000000](https://dummyimage.com/50/000000/white?text=+) #000000       |
+A plataforma pode se estruturar a partir de práticas que garantam:
 
-## Aplicação e explicação de cuidados de usabilidade e acessibilidade
+- Transparência nos critérios de curadoria e recomendação de jogos
+- Equidade na exposição de desenvolvedores, evitando favorecimento desigual
+- Segurança e confiabilidade para usuários e criadores
+- Ética na gestão de dados e conteúdos digitais
+- Esses aspectos são fundamentais para assegurar um ambiente digital justo, responsável e sustentável.
 
-Durante o desenvolvimento da interface, foram considerados alguns princípios de usabilidade e acessibilidade para tornar a navegação mais clara e confortável para diferentes perfis de usuários. A estrutura da página foi organizada em blocos bem definidos, como seções de jogos populares, ofertas e exploração por região, permitindo que o usuário escaneie rapidamente o conteúdo e encontre o que procura sem esforço.
+A Iara Games é uma iniciativa que fortalece o ecossistema nacional de games através de acesso, visibilidade e distribuição mais democrática.
 
-O contraste entre o fundo escuro e os elementos de destaque, como botões e informações principais, foi pensado para melhorar a legibilidade e facilitar a identificação das ações disponíveis. Botões como “Comprar jogo” e “Jogar” utilizam cores de destaque e tamanhos consistentes, ajudando o usuário a reconhecer rapidamente quais elementos são interativos.
+## ESTRUTURA E LAYOUT
 
-Também foram utilizados cards para apresentar os jogos, agrupando imagem, título, preço e ação em um mesmo espaço visual. Esse padrão cria consistência na navegação e facilita o reconhecimento das informações, evitando sobrecarga visual.
+### HTML SEMANTICO
+![App Screenshot](assets/images/Semantic.png)
 
-Além disso, os textos possuem hierarquia clara entre títulos, descrições e informações complementares, contribuindo para uma leitura mais fluida. Esses cuidados ajudam a tornar a interface mais intuitiva, acessível e alinhada com boas práticas de experiência do usuário.
+### LAYOUT COM GRIDS
+![App Screenshot](assets/images/gridform.png)
 
-## Mapa de arquivos
+### DESENVOLVIMENTO DA PÁGINA "SUPORTE"
+![App Screenshot](assets/images/figmasuporte.png)
 
-    iara-games-sprint01
-    └───assets
-    │   ├───images
-    │   └───styles
-    │       └───style.css
-    ├─index.html
-    └─README.md
+### FORMULÁRIOS
 
-## Layout
+#### FORMULÁRIO DE SUPORTE
+![App Screenshot](assets/images/printHTMLsuporte.png)
 
-![App Screenshot](assets/images/iaragames.jpg)
+#### FORMULÁRIO PARA DESENVOLVEDORES DE JOGOS
+![App Screenshot](assets/images/printHTMLhome.png)
+
+## LINKS
+
+ - [VIDEO PITCH](#)
+ - [GitHub](https://github.com/fabriciogallo/iara-games/)
+ - [Projeto](https://fabriciogallo.github.io/iara-games/)
