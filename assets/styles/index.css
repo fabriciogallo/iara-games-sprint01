@@ -1178,6 +1178,21 @@ select {
 
 /* Fim Area do Footer */
 
+/* A técnica sr-only (Screen Reader Only) */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* A técnica sr-only (Screen Reader Only) */
+
 /* Area Media Queries */
 /* Basicamente gambiarras enquanto não esta feito o mobile first */
 
